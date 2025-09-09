@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "firstplace",
+        "name": "FirstPlace",
+        "user_id": "69a9ca85faff45e88c2460a436b6e317",
+        "device_trackers": [],
+        "picture": null
+      },
+      {
+        "id": "bradley",
+        "name": "Bradley",
+        "device_trackers": [
+          "device_tracker.iphone"
+        ],
+        "user_id": "30e084e26e764c8d9411e2b2bcc734cf",
+        "picture": null
+      },
+      {
+        "id": "nick",
+        "name": "Nick",
+        "device_trackers": [
+          "device_tracker.pixel_7a"
+        ],
+        "user_id": "0d9a9e9964c44b28b1aef1a3fa864438",
+        "picture": null
+      },
+      {
+        "id": "andrew",
+        "name": "Andrew",
+        "device_trackers": [
+          "device_tracker.andrew_s_phone"
+        ],
+        "user_id": "86ff9044f1f54fb0bba132d905c1ca2c",
+        "picture": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "cambrian",
+        "latitude": 46.52763082198013,
+        "longitude": -80.94151496887208,
+        "name": "Cambrian",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 293.0
+      }
+    ]
+  }
+}

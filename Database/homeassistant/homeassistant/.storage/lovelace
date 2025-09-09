@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "OVERVIEW",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Live Feed",
+                  "heading_style": "title",
+                  "icon": "mdi:cctv"
+                },
+                {
+                  "show_state": true,
+                  "show_name": true,
+                  "camera_view": "live",
+                  "type": "picture-entity",
+                  "entity": "camera.cam01",
+                  "camera_image": "camera.cam01",
+                  "grid_options": {
+                    "columns": "full",
+                    "rows": 8
+                  }
+                }
+              ],
+              "column_span": 3
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading_style": "title",
+                  "heading": "Motions Detected Today:",
+                  "icon": "mdi:exit-run",
+                  "tap_action": {
+                    "action": "perform-action",
+                    "perform_action": "counter.increment",
+                    "target": {
+                      "entity_id": "counter.motion_detections"
+                    }
+                  }
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "counter.motion_detections"
+                  ],
+                  "grid_options": {
+                    "columns": 9,
+                    "rows": 2
+                  },
+                  "state_color": false,
+                  "show_header_toggle": true,
+                  "title": "Today's Detections :"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "perform-action",
+                    "perform_action": "automation.trigger",
+                    "target": {
+                      "entity_id": "automation.motion_detection"
+                    },
+                    "data": {
+                      "skip_condition": true
+                    }
+                  },
+                  "entity": "automation.motion_detection",
+                  "hold_action": {
+                    "action": "perform-action",
+                    "perform_action": "automation.trigger",
+                    "target": {
+                      "entity_id": "automation.motion_detection"
+                    },
+                    "data": {
+                      "skip_condition": true
+                    }
+                  },
+                  "grid_options": {
+                    "columns": 3,
+                    "rows": 2
+                  }
+                },
+                {
+                  "type": "map",
+                  "entities": [
+                    {
+                      "entity": "person.andrew"
+                    },
+                    {
+                      "entity": "person.nick"
+                    },
+                    {
+                      "entity": "person.bradley"
+                    },
+                    {
+                      "entity": "zone.home"
+                    },
+                    {
+                      "entity": "zone.cambrian"
+                    }
+                  ],
+                  "theme_mode": "auto",
+                  "grid_options": {
+                    "columns": "full",
+                    "rows": 6
+                  }
+                }
+              ],
+              "column_span": 1
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "icon": "mdi:information",
+                  "heading": "Logs",
+                  "heading_style": "title"
+                },
+                {
+                  "type": "logbook",
+                  "target": {
+                    "entity_id": [
+                      "automation.motion_detection"
+                    ]
+                  },
+                  "grid_options": {
+                    "rows": 8,
+                    "columns": 24
+                  },
+                  "hours_to_show": 24,
+                  "title": "System Logs"
+                },
+                {
+                  "type": "history-graph",
+                  "entities": [
+                    {
+                      "entity": "counter.motion_detections"
+                    }
+                  ],
+                  "title": "Motion Logging",
+                  "grid_options": {
+                    "columns": 24,
+                    "rows": 8
+                  },
+                  "hours_to_show": 48
+                }
+              ],
+              "column_span": 4
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading_style": "title",
+                  "heading": "Team",
+                  "icon": "mdi:account-group"
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.andrew_s_phone_battery_level",
+                  "needle": false,
+                  "name": "Andrew's Battery Level",
+                  "grid_options": {
+                    "columns": 16,
+                    "rows": 3
+                  }
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.nick_s_phone_battery_level",
+                  "name": "Nick's Battery Level",
+                  "grid_options": {
+                    "columns": 16,
+                    "rows": 3
+                  }
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.iphone_battery_level",
+                  "name": "Bradley's Battery Level",
+                  "grid_options": {
+                    "columns": 16,
+                    "rows": 3
+                  }
+                }
+              ],
+              "column_span": 4
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": " ",
+                  "heading_style": "title"
+                }
+              ]
+            }
+          ],
+          "header": {
+            "layout": "center",
+            "badges_position": "top",
+            "card": {
+              "type": "markdown",
+              "content": " FIRST PLACE SECURITY",
+              "title": "FIRST PLACE SECURITY",
+              "text_only": true
+            }
+          },
+          "badges": [],
+          "cards": [
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "counter.motion_detections"
+                }
+              ],
+              "title": "Motion Logs",
+              "hours_to_show": 72,
+              "logarithmic_scale": false
+            }
+          ],
+          "type": "sections",
+          "max_columns": 4,
+          "icon": ""
+        }
+      ]
+    }
+  }
+}

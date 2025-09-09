@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "counter",
+  "data": {
+    "items": [
+      {
+        "id": "motion_detections",
+        "name": "Motion Detections",
+        "icon": "mdi:cctv",
+        "minimum": 0,
+        "maximum": null,
+        "step": 1,
+        "restore": true,
+        "initial": 0
+      }
+    ]
+  }
+}

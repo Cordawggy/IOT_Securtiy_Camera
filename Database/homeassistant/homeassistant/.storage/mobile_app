@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "mobile_app",
+  "data": {
+    "deleted_ids": [
+      "0a5d6ba59ff2304a514e890bcfdddb797f864afe3475ad6dc258de7f3426a4fb",
+      "13351f6be4c19b1fbb24d25063c464ecf140fba6293b8371ca564575b7d6bfe6"
+    ]
+  }
+}

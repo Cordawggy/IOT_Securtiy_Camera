@@ -1,0 +1,20 @@
+- alias: "Save snapshot and notify on motion"
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.camera_motion
+      to: "ON"  # Must match payload_on ("ON" not "on")
+  
+  action:
+    # Capture snapshot
+    - service: camera.snapshot
+      target:
+        entity_id: camera.cam01  # Entity under `target`, not `data`
+      data:
+        filename: "/config/www/snapshots/motion_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+
+    # Send notification with image
+    - service: notify.mobile_app_<YOUR_DEVICE_NAME>  # Replace with your device name
+      data:
+        message: "Motion detected by Cam01!"
+        data:
+          image: "/local/snapshots/motion_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"

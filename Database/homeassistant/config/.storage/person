@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "firstplace",
+        "name": "FirstPlace",
+        "user_id": "bf82bf5edd0347e69b41206877c07304",
+        "device_trackers": []
+      }
+    ]
+  }
+}

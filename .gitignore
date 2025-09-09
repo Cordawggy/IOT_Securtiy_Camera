@@ -1,0 +1,42 @@
+# ===== Rust =====
+/target/            # Build artifacts
+**/*.rs.bk          # Backup files from editors
+Cargo.lock          # Keep this (since it's a binary application)
+
+# ===== Docker/InfluxDB =====
+Database/influxdb/config/data/  # Match your structure
+rust-client/.env     # Explicit path to environment file
+docker-data/         # Alternative common volume dir name
+*.log                # Log files
+docker-compose.override.yml  # Local overrides
+
+# ===== Home Assistant =====
+Database/homeassistant/config/secrets.yaml  # Align with your directory structure
+homeassistant/.cloud*             # Remote access configs
+homeassistant/.storage/           # Internal HA state
+.homeassistant_oauth_token        # Authentication
+
+# ===== Build Artifacts =====
+*.exe               # Windows binaries
+*.dll               # Windows libraries
+*.so                # Linux shared objects
+*.pyc               # Python bytecode
+__pycache__/        # Python cache
+
+# ===== OS Junk =====
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+
+# ===== IDEs =====
+.vscode/            # VS Code settings
+.idea/              # JetBrains IDE
+*.swp               # Vim swap files
+
+# ===== Sensor/Camera Specific =====
+*.bin               # Firmware binaries
+*.hex               # Microcontroller flashes
+/firmware/build/    # Compiled firmware
+
+# ===== Log Files =====
+*.log               # General log files

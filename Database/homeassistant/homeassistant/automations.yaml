@@ -1,0 +1,67 @@
+- id: '1744760850408'
+  alias: Motion Detection
+  description: ''
+  triggers:
+  - trigger: mqtt
+    topic: camera/motion
+    payload: 'ON'
+  conditions: []
+  actions:
+  - action: counter.increment
+    metadata: {}
+    data: {}
+    target:
+      entity_id: counter.motion_detections
+  - device_id: 8e006089eb6f97b50b5f540572aa96ea
+    domain: mobile_app
+    type: notify
+    message: Motion Detected!
+    title: Alert!
+    enabled: false
+  - device_id: a64ce7a709486aebd34ce8d8304396e8
+    domain: mobile_app
+    type: notify
+    message: Someone is throwing it back on cam!
+    title: Alert!
+    enabled: false
+  - device_id: a60d380f460bae1630b0db1a7ef11735
+    domain: mobile_app
+    type: notify
+    message: Motion Detected!
+    title: Alert!
+    enabled: false
+  - action: notify.notify
+    metadata: {}
+    data:
+      message: Motion Detected!
+  mode: single
+- id: '1744764227154'
+  alias: Motion Logger
+  description: ''
+  triggers:
+  - trigger: mqtt
+    topic: camera/motion
+    payload: 'ON'
+  conditions: []
+  actions:
+  - action: system_log.write
+    metadata: {}
+    data:
+      level: info
+      message: Motion Detected
+      logger: motiondetection.logger
+  mode: single
+- id: '1744845383585'
+  alias: New Day
+  description: ''
+  triggers:
+  - trigger: time
+    at: 00:00:00
+  conditions: []
+  actions:
+  - action: counter.reset
+    metadata: {}
+    data: {}
+    target:
+      entity_id: counter.motion_detections
+  mode: single

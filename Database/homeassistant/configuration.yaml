@@ -1,0 +1,37 @@
+homeassistant:
+  name: Security Hub
+  # Allow snapshot storage under /config/www/
+  allowlist_external_dirs:
+    - /config/www/snapshots  # Remove leading slash if permissions fail
+
+# Camera setup (use MJPEG platform instead of generic)
+camera:
+  - platform: mjpeg
+    mjpeg_url: http://192.168.2.246/stream
+    still_image_url: http://192.168.2.246/snapshot.jpg
+    name: Cam01
+
+
+# MQTT Broker setup (required for binary_sensor)
+mqtt:
+  broker: !secret mqtt_broker_ip  # Add this if missing (define in secrets.yaml)
+  port:1883
+  username:firstplace
+  password:firstplacepassword
+# Motion sensor (ensure ESP32 publishes to "camera/motion")
+binary_sensor:
+  - platform: mqtt
+    name: "Camera Motion"
+    unique_id: camera_motion_sensor_01  # <-- Required for UI visibility sometimes
+    state_topic: "camera/motion"
+    payload_on: "ON"
+    payload_off: "OFF"
+    device_class: motion
+
+
+# Include automations
+automation: !include automations.yaml
+
+# Logger settings
+logger:
+  default: info

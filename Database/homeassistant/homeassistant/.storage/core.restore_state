@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.firstplace","state":"unknown","attributes":{"editable":true,"id":"firstplace","device_trackers":[],"source":"person.firstplace","user_id":"69a9ca85faff45e88c2460a436b6e317","friendly_name":"FirstPlace"},"last_changed":"2025-04-17T04:27:07.073746+00:00","last_reported":"2025-04-17T04:27:07.073746+00:00","last_updated":"2025-04-17T04:27:07.073746+00:00","context":{"id":"01JS1008E1B8J2GMQCAMW0FRJB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"person.bradley","state":"not_home","attributes":{"editable":true,"id":"bradley","device_trackers":["device_tracker.iphone"],"latitude":46.495408191720806,"longitude":-80.93447759232129,"gps_accuracy":5,"source":"person.bradley","user_id":"30e084e26e764c8d9411e2b2bcc734cf","friendly_name":"Bradley"},"last_changed":"2025-04-17T04:27:07.074020+00:00","last_reported":"2025-04-17T04:27:07.074020+00:00","last_updated":"2025-04-17T04:27:07.074020+00:00","context":{"id":"01JS1008E2HJJZHN3RE1CTZKBE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"person.nick","state":"not_home","attributes":{"editable":true,"id":"nick","device_trackers":["device_tracker.pixel_7a"],"latitude":46.4883381,"longitude":-80.9706697,"gps_accuracy":12,"source":"person.nick","user_id":"0d9a9e9964c44b28b1aef1a3fa864438","friendly_name":"Nick"},"last_changed":"2025-04-17T04:27:07.074175+00:00","last_reported":"2025-04-17T04:27:07.074175+00:00","last_updated":"2025-04-17T04:27:07.074175+00:00","context":{"id":"01JS1008E224W265Y0S1AWZ1Y5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"person.andrew","state":"home","attributes":{"editable":true,"id":"andrew","device_trackers":["device_tracker.andrew_s_phone"],"latitude":46.5600526,"longitude":-81.1174556,"gps_accuracy":100,"source":"person.andrew","user_id":"86ff9044f1f54fb0bba132d905c1ca2c","friendly_name":"Andrew"},"last_changed":"2025-04-17T04:27:07.074291+00:00","last_reported":"2025-04-17T04:27:07.074291+00:00","last_updated":"2025-04-17T04:27:07.074291+00:00","context":{"id":"01JS1008E28X28SJX2NDFFM9SF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-04-17T04:27:10.018811+00:00","last_reported":"2025-04-17T04:27:10.018811+00:00","last_updated":"2025-04-17T04:27:10.018811+00:00","context":{"id":"01JS100BA24D6MYTM4F9QTZZ7P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-04-17T04:27:10.019180+00:00","last_reported":"2025-04-17T04:27:10.019180+00:00","last_updated":"2025-04-17T04:27:10.019180+00:00","context":{"id":"01JS100BA3TRVRHMTNNA9821P0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-04-17T04:27:10.057408+00:00","last_reported":"2025-04-17T04:27:10.057408+00:00","last_updated":"2025-04-17T04:27:10.057408+00:00","context":{"id":"01JS100BB9B2EKD85AFDJ4GCJF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"counter.motion_detections","state":"0","attributes":{"editable":true,"initial":0,"step":1,"minimum":0,"icon":"mdi:cctv","friendly_name":"Motion Detections"},"last_changed":"2025-04-17T04:27:10.747052+00:00","last_reported":"2025-04-17T04:27:10.747052+00:00","last_updated":"2025-04-17T04:27:10.747052+00:00","context":{"id":"01JS100C0V52WVZM1YXDG68H81","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.andrew_s_phone_music_active","state":"off","attributes":{"icon":"mdi:music-off","friendly_name":"Andrew's Phone Music active"},"last_changed":"2025-04-17T04:27:10.974619+00:00","last_reported":"2025-04-17T04:27:10.974619+00:00","last_updated":"2025-04-17T04:27:10.974619+00:00","context":{"id":"01JS100C7YMJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.andrew_s_phone","state":"home","attributes":{"source_type":"gps","latitude":46.5600526,"longitude":-81.1174556,"gps_accuracy":100,"altitude":249.0,"course":0,"speed":0,"vertical_accuracy":48,"friendly_name":"Andrew's Phone"},"last_changed":"2025-04-17T04:27:10.975780+00:00","last_reported":"2025-04-17T04:27:10.975780+00:00","last_updated":"2025-04-17T04:27:10.975780+00:00","context":{"id":"01JS100C7Z20DA0PE9VCFJRE14","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.andrew_s_phone_battery_level","state":"5","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-outline","friendly_name":"Andrew's Phone Battery level"},"last_changed":"2025-04-17T04:27:10.977094+00:00","last_reported":"2025-04-17T04:27:10.977094+00:00","last_updated":"2025-04-17T04:27:10.977094+00:00","context":{"id":"01JS100C8139K2M79B787Y0G1A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 5,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.andrew_s_phone_battery_state","state":"charging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-plus","friendly_name":"Andrew's Phone Battery state"},"last_changed":"2025-04-17T04:27:10.977383+00:00","last_reported":"2025-04-17T04:27:10.977383+00:00","last_updated":"2025-04-17T04:27:10.977383+00:00","context":{"id":"01JS100C81YCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.andrew_s_phone_charger_type","state":"ac","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:power-plug","friendly_name":"Andrew's Phone Charger type"},"last_changed":"2025-04-17T04:27:10.977611+00:00","last_reported":"2025-04-17T04:27:10.977611+00:00","last_updated":"2025-04-17T04:27:10.977611+00:00","context":{"id":"01JS100C81SRYBCWK0MAWWWWW5","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "ac",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.andrew_s_phone_geocoded_location","state":"365 Denis Crescent, Greater Sudbury, ON P0M 1B0, Canada","attributes":{"administrative_area":"Ontario","country":"Canada","iso_country_code":"CA","locality":"Greater Sudbury","location":[46.5600227,-81.1173693],"name":"365","phone":"null","postal_code":"P0M 1B0","premises":"null","sub_administrative_area":"Greater Sudbury","sub_locality":"Azilda","sub_thoroughfare":"365","thoroughfare":"Denis Crescent","url":"null","icon":"mdi:map","friendly_name":"Andrew's Phone Geocoded location"},"last_changed":"2025-04-17T04:27:10.977869+00:00","last_reported":"2025-04-17T04:27:10.977869+00:00","last_updated":"2025-04-17T04:27:10.977869+00:00","context":{"id":"01JS100C81TRFVKB5TWZR050SG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "365 Denis Crescent, Greater Sudbury, ON P0M 1B0, Canada",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.pixel_7a","state":"not_home","attributes":{"source_type":"gps","latitude":46.4883381,"longitude":-80.9706697,"gps_accuracy":12,"altitude":235.0,"course":0,"speed":0,"vertical_accuracy":0,"friendly_name":"Nick's Phone"},"last_changed":"2025-04-17T04:27:10.978922+00:00","last_reported":"2025-04-17T04:27:10.978922+00:00","last_updated":"2025-04-17T04:27:10.978922+00:00","context":{"id":"01JS100C82GW129NV7WY8MMG1E","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nick_s_phone_battery_level","state":"82","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-wireless-80","friendly_name":"Nick's Phone Battery level"},"last_changed":"2025-04-17T04:27:10.979434+00:00","last_reported":"2025-04-17T04:27:10.979434+00:00","last_updated":"2025-04-17T04:27:10.979434+00:00","context":{"id":"01JS100C83W34BP3R20RJ09CVZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 82,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nick_s_phone_battery_state","state":"charging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-plus","friendly_name":"Nick's Phone Battery state"},"last_changed":"2025-04-17T04:27:10.979616+00:00","last_reported":"2025-04-17T04:27:10.979616+00:00","last_updated":"2025-04-17T04:27:10.979616+00:00","context":{"id":"01JS100C8343FF1R6FX0QEE4Z6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nick_s_phone_charger_type","state":"wireless","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery-charging-wireless","friendly_name":"Nick's Phone Charger type"},"last_changed":"2025-04-17T04:27:10.979768+00:00","last_reported":"2025-04-17T04:27:10.979768+00:00","last_updated":"2025-04-17T04:27:10.979768+00:00","context":{"id":"01JS100C837BK003CH3AYYVXCB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "wireless",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_focus","state":"on","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone Focus"},"last_changed":"2025-04-17T04:27:10.980272+00:00","last_reported":"2025-04-17T04:27:10.980272+00:00","last_updated":"2025-04-17T04:27:10.980272+00:00","context":{"id":"01JS100C84M9Y3SRQTFJ5CVK6H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone","state":"not_home","attributes":{"source_type":"gps","battery_level":65,"latitude":46.495408191720806,"longitude":-80.93447759232129,"gps_accuracy":5,"altitude":269.4791133457408,"vertical_accuracy":29,"friendly_name":"Bradley's Bradley's iPhone"},"last_changed":"2025-04-17T04:27:10.980619+00:00","last_reported":"2025-04-17T04:27:10.980619+00:00","last_updated":"2025-04-17T04:27:10.980619+00:00","context":{"id":"01JS100C84S5B586JJ7VFH10SX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_activity","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"iPhone Activity"},"last_changed":"2025-04-17T04:27:10.981176+00:00","last_reported":"2025-04-17T04:27:10.981176+00:00","last_updated":"2025-04-17T04:27:10.981176+00:00","context":{"id":"01JS100C85FTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_battery_level","state":"80","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-80","friendly_name":"iPhone Battery Level"},"last_changed":"2025-04-17T04:27:10.981510+00:00","last_reported":"2025-04-17T04:27:10.981510+00:00","last_updated":"2025-04-17T04:27:10.981510+00:00","context":{"id":"01JS100C85RKJ9T2KV1JNER5KQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 80,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_battery_state","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-charging-80","friendly_name":"iPhone Battery State"},"last_changed":"2025-04-17T04:27:10.981718+00:00","last_reported":"2025-04-17T04:27:10.981718+00:00","last_updated":"2025-04-17T04:27:10.981718+00:00","context":{"id":"01JS100C85K3WCDRZQADJVMDRH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_storage","state":"30.07","attributes":{"Available":"3.59 GB","Available (Important)":"60.30 GB","Available (Opportunistic)":"38.45 GB","Total":"127.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone Storage"},"last_changed":"2025-04-17T04:27:10.981877+00:00","last_reported":"2025-04-17T04:27:10.981877+00:00","last_updated":"2025-04-17T04:27:10.981877+00:00","context":{"id":"01JS100C858DTYRM3NJ9RA8MWG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "30.07",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_ssid","state":"BELL168","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone SSID"},"last_changed":"2025-04-17T04:27:10.982060+00:00","last_reported":"2025-04-17T04:27:10.982060+00:00","last_updated":"2025-04-17T04:27:10.982060+00:00","context":{"id":"01JS100C864834FD6F7MYG56BG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "BELL168",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_bssid","state":"e:ac:8a:22:89:d","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone BSSID"},"last_changed":"2025-04-17T04:27:10.982189+00:00","last_reported":"2025-04-17T04:27:10.982189+00:00","last_updated":"2025-04-17T04:27:10.982189+00:00","context":{"id":"01JS100C86JC17N1C0FW2738EX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "e:ac:8a:22:89:d",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone Connection Type"},"last_changed":"2025-04-17T04:27:10.982313+00:00","last_reported":"2025-04-17T04:27:10.982313+00:00","last_updated":"2025-04-17T04:27:10.982313+00:00","context":{"id":"01JS100C86F25ESYKV9K0EFXXG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 1"},"last_changed":"2025-04-17T04:27:10.982438+00:00","last_reported":"2025-04-17T04:27:10.982438+00:00","last_updated":"2025-04-17T04:27:10.982438+00:00","context":{"id":"01JS100C86BNXC3KSBH487VZ35","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 2"},"last_changed":"2025-04-17T04:27:10.982563+00:00","last_reported":"2025-04-17T04:27:10.982563+00:00","last_updated":"2025-04-17T04:27:10.982563+00:00","context":{"id":"01JS100C86GWYEMND056P3VYKB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_geocoded_location","state":"2016 Margaret St\nSudbury ON P3B 1Z5\nCanada","attributes":{"Administrative Area":"ON","Areas Of Interest":"N/A","Country":"Canada","Inland Water":"N/A","ISO Country Code":"CA","Locality":"Sudbury","Location":[46.495408191720806,-80.93447759232129],"Name":"2016 Margaret St","Ocean":"N/A","Postal Code":"P3B 1Z5","Sub Administrative Area":"Sudbury","Sub Locality":"Minnow Lake","Sub Thoroughfare":"2016","Thoroughfare":"Margaret St","Time Zone":"America/Toronto","Zones":[],"icon":"mdi:map","friendly_name":"iPhone Geocoded Location"},"last_changed":"2025-04-17T04:27:10.982687+00:00","last_reported":"2025-04-17T04:27:10.982687+00:00","last_updated":"2025-04-17T04:27:10.982687+00:00","context":{"id":"01JS100C86693ASD0ZR45W0RKK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2016 Margaret St\nSudbury ON P3B 1Z5\nCanada",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_last_update_trigger","state":"Siri","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone Last Update Trigger"},"last_changed":"2025-04-17T04:27:10.982821+00:00","last_reported":"2025-04-17T04:27:10.982821+00:00","last_updated":"2025-04-17T04:27:10.982821+00:00","context":{"id":"01JS100C86H5DV00BCG21EE0V8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Siri",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_app_version","state":"2025.3","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone App Version"},"last_changed":"2025-04-17T04:27:10.982996+00:00","last_reported":"2025-04-17T04:27:10.982996+00:00","last_updated":"2025-04-17T04:27:10.982996+00:00","context":{"id":"01JS100C86PAHW2THWYBHM1X8F","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2025.3",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"iPhone Location permission"},"last_changed":"2025-04-17T04:27:10.983126+00:00","last_reported":"2025-04-17T04:27:10.983126+00:00","last_updated":"2025-04-17T04:27:10.983126+00:00","context":{"id":"01JS100C87FX660MFJMD2S93WV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"iPhone Audio Output"},"last_changed":"2025-04-17T04:27:10.983341+00:00","last_reported":"2025-04-17T04:27:10.983341+00:00","last_updated":"2025-04-17T04:27:10.983341+00:00","context":{"id":"01JS100C87S4AW261JTV5WE21A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Built-in Speaker",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_distance","state":"0","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone Distance"},"last_changed":"2025-04-17T04:27:10.983583+00:00","last_reported":"2025-04-17T04:27:10.983583+00:00","last_updated":"2025-04-17T04:27:10.983583+00:00","context":{"id":"01JS100C87YPRNM5TTA1WQ2J1M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone Floors Ascended"},"last_changed":"2025-04-17T04:27:10.984141+00:00","last_reported":"2025-04-17T04:27:10.984141+00:00","last_updated":"2025-04-17T04:27:10.984141+00:00","context":{"id":"01JS100C883CY0R6GY1KKJ1A3S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone Average Active Pace"},"last_changed":"2025-04-17T04:27:10.984351+00:00","last_reported":"2025-04-17T04:27:10.984351+00:00","last_updated":"2025-04-17T04:27:10.984351+00:00","context":{"id":"01JS100C88YJJFR3D9AJJAQXJH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone Floors Descended"},"last_changed":"2025-04-17T04:27:10.984513+00:00","last_reported":"2025-04-17T04:27:10.984513+00:00","last_updated":"2025-04-17T04:27:10.984513+00:00","context":{"id":"01JS100C88NVGG2FGTF5AVGM57","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_steps","state":"0","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone Steps"},"last_changed":"2025-04-17T04:27:10.984652+00:00","last_reported":"2025-04-17T04:27:10.984652+00:00","last_updated":"2025-04-17T04:27:10.984652+00:00","context":{"id":"01JS100C88F3BDJ4C529Y50Z8K","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-04-17T04:27:11.248367+00:00","last_reported":"2025-04-17T04:27:11.248367+00:00","last_updated":"2025-04-17T04:27:11.248367+00:00","context":{"id":"01JS100CGG7A7P9PYTX9CNQZ5P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.motion_detection","state":"on","attributes":{"id":"1744760850408","last_triggered":"2025-04-17T03:12:19.247034+00:00","mode":"single","current":0,"icon":"mdi:cctv","friendly_name":"Motion was detected!"},"last_changed":"2025-04-17T04:27:11.256720+00:00","last_reported":"2025-04-17T04:27:11.256720+00:00","last_updated":"2025-04-17T04:27:11.256720+00:00","context":{"id":"01JS100CGR5Y3FB9130MXAK04W","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.motion_detected","state":"on","attributes":{"id":"1744764227154","last_triggered":"2025-04-17T03:12:19.250228+00:00","mode":"single","current":0,"friendly_name":"Motion Logger"},"last_changed":"2025-04-17T04:27:11.256946+00:00","last_reported":"2025-04-17T04:27:11.256946+00:00","last_updated":"2025-04-17T04:27:11.256946+00:00","context":{"id":"01JS100CGRKNRRKT7MNP0FH2FA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.new_day","state":"on","attributes":{"id":"1744845383585","last_triggered":"2025-04-17T04:00:00.494049+00:00","mode":"single","current":0,"friendly_name":"New Day"},"last_changed":"2025-04-17T04:27:11.257086+00:00","last_reported":"2025-04-17T04:27:11.257086+00:00","last_updated":"2025-04-17T04:27:11.257086+00:00","context":{"id":"01JS100CGSQJA6M9HRSRHM7S5N","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-17T04:27:11.323345+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.pixel_7a_battery_level","state":"87","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-80","friendly_name":"Nick's Phone Battery level"},"last_changed":"2025-04-16T23:18:07.174961+00:00","last_reported":"2025-04-16T23:18:07.174961+00:00","last_updated":"2025-04-16T23:18:07.174961+00:00","context":{"id":"01JS0EAF26JXDNVF79PZ6VJCWN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 87,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-16T23:21:03.383083+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.pixel_7a_battery_state","state":"discharging","attributes":{"options":["charging","discharging","full","not_charging"],"device_class":"enum","icon":"mdi:battery-minus","friendly_name":"Nick's Phone Battery state"},"last_changed":"2025-04-16T22:59:55.478988+00:00","last_reported":"2025-04-16T22:59:55.478988+00:00","last_updated":"2025-04-16T22:59:55.478988+00:00","context":{"id":"01JS0D94YP02HSDCTKKG9BWHA6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "discharging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-16T23:21:03.383194+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.pixel_7a_charger_type","state":"none","attributes":{"options":["ac","usb","wireless","dock","none"],"device_class":"enum","icon":"mdi:battery","friendly_name":"Nick's Phone Charger type"},"last_changed":"2025-04-16T22:59:55.479277+00:00","last_reported":"2025-04-16T22:59:55.479277+00:00","last_updated":"2025-04-16T22:59:55.479277+00:00","context":{"id":"01JS0D94YQ14GFGTWB1SV2ZYA0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "none",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-16T23:21:03.383254+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.motion_logging","state":"on","attributes":{"id":"1744761864986","last_triggered":"2025-04-16T00:05:02.320852+00:00","mode":"single","current":0,"friendly_name":"Motion Logging"},"last_changed":"2025-04-16T00:04:33.229393+00:00","last_reported":"2025-04-16T00:05:02.321377+00:00","last_updated":"2025-04-16T00:05:02.321377+00:00","context":{"id":"01JRXYKN7GFCS836DRMGVW5Q7X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-16T00:05:26.013324+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.pixel_7a_geocoded_location","state":"213 Somerset St, Greater Sudbury, ON P3B 3B1, Canada","attributes":{"administrative_area":"Ontario","country":"Canada","iso_country_code":"CA","locality":"Greater Sudbury","location":[46.488065999999996,-80.97112659999999],"name":"213","phone":"null","postal_code":"P3B 3B1","premises":"null","sub_administrative_area":"Greater Sudbury","sub_locality":"Sudbury","sub_thoroughfare":"213","thoroughfare":"Somerset Street","url":"null","icon":"mdi:map","friendly_name":"Pixel 7a Geocoded location"},"last_changed":"2025-04-16T23:18:07.175242+00:00","last_reported":"2025-04-16T23:18:07.175242+00:00","last_updated":"2025-04-16T23:18:07.175242+00:00","context":{"id":"01JS0EAF27CFSC5GNHFHE3S1TD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "213 Somerset St, Greater Sudbury, ON P3B 3B1, Canada",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-16T23:21:03.383348+00:00"
+    }
+  ]
+}

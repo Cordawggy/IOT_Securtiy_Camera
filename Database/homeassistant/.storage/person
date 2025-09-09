@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "bradley_kroft",
+        "name": "Bradley Kroft",
+        "user_id": "90ff2ab2bef744cca984df13b5d6fd16",
+        "device_trackers": []
+      }
+    ]
+  }
+}
